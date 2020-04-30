@@ -10,7 +10,7 @@ import time
 import os
 
 # TODO
-# Show error when timing intervals are the same mucski
+# Show error when timing intervals are the same
 
 
 class Hunting:

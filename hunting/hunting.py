@@ -19,7 +19,7 @@ class Hunting:
         self.scores = dataIO.load_json('data/hunting/scores.json')
         self.subscriptions = dataIO.load_json('data/hunting/subscriptions.json')
         self.settings = dataIO.load_json('data/hunting/settings.json')
-        self.animals = {'duck': ':duck: **_Quack!_**', 'penguin': ':penguin: **_Noot!_**', 'chicken': ':rooster: **_Bah-gawk!_**', 'pigeon': ':dove: **_Coo!_**', 'samuel': ':samuel: **_Motherfuckers_**'}
+        self.animals = {'duck': ':duck: **_Quack!_**', 'penguin': ':penguin: **_Noot!_**', 'chicken': ':rooster: **_Bah-gawk!_**', 'pigeon': ':dove: **_Coo!_**', 'samuel': ':samuel: **_Motherfuckers_**',}
         self.in_game = []
         self.paused_games = []
         self._latest_message_check_message_limit = 5
